@@ -1,0 +1,20 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi there", "How are you?"],
+            "responses": ["Hello!", "Hi!", "How can I help you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later","bye"],
+            "responses": ["Goodbye!", "See you later","bye","see you"]
+        },
+        {
+            "tags":"information",
+            "patterns":[" plates"],
+            "responses":["banana leaf plates"]
+        }
+        
+    ]
+}
